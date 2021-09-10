@@ -31125,9 +31125,9 @@ if (false) {} else {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!***********************!*\
+  !*** ./src/index.jsx ***!
+  \***********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.css */ "./src/styles/index.css");
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/index.scss */ "./src/styles/index.scss");
@@ -31142,8 +31142,8 @@ var obj = {
   baz: "foo"
 };
 console.log(obj);
-(0,react_dom__WEBPACK_IMPORTED_MODULE_2__.render)( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-  children: "Hello world"
+(0,react_dom__WEBPACK_IMPORTED_MODULE_2__.render)( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h1", {
+  children: ["Hello ", new Date().toDateString()]
 }), document.getElementById("TMS-root"));
 }();
 /******/ })()

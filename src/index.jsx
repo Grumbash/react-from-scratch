@@ -10,6 +10,6 @@ const obj = {
 console.log(obj);
 
 render(
-  <h1>Hello {new Date().toDateString()}</h1>,
+  <h1>Zdarova {new Date().toDateString()}</h1>,
   document.getElementById("TMS-root")
 );
