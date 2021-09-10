@@ -1,8 +1,16 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+let mode = "development";
+let target = "web";
+
+if (process.env.NODE_ENV === "production") {
+  target = "browserslist";
+  mode = "production";
+}
 module.exports = {
-  mode: "development",
+  target,
+  mode,
   plugins: [new MiniCssExtractPlugin()],
   module: {
     rules: [
